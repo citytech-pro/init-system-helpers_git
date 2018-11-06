@@ -1,8 +1,9 @@
 #!/bin/sh
 
 docdir=$(realpath $1)/usr/share/doc/init-system-helpers
-packfiles=changelog README.invoke-rc.d README.policy-rc.d
+packfiles="changelog README.invoke-rc.d README.policy-rc.d"
 
+mkdir -p $(realpath $1)
 git archive master | tar -x -C $(realpath $1)
 
 for f in $packfiles; do
