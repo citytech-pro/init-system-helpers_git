@@ -131,7 +131,7 @@ done
 
 # Operate against system upstart, not session
 unset UPSTART_SESSION
-if [ -r "/etc/init/${SERVICE}.conf" ] && which initctl >/dev/null \
+if [ -r "/etc/init/${SERVICE}.conf" ] && which initctl >/dev/null 2>/dev/null \
    && initctl version 2>/dev/null | grep -q upstart \
    && initctl status ${SERVICE} 2>/dev/null 1>/dev/null
 then

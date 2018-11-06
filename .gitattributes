@@ -1,0 +1,14 @@
+.gitattributes export-ignore
+.gitignore export-ignore
+README.md export-ignore
+git-export export-ignore
+etc/rc0.d/.gitraked export-ignore
+etc/rc1.d/.gitraked export-ignore
+etc/rc2.d/.gitraked export-ignore
+etc/rc3.d/.gitraked export-ignore
+etc/rc4.d/.gitraked export-ignore
+etc/rc5.d/.gitraked export-ignore
+etc/rc6.d/.gitraked export-ignore
+etc/rcS.d/.gitraked export-ignore
+etc/systemd/system/.gitraked export-ignore
+var/lib/systemd/.gitraked export-ignore

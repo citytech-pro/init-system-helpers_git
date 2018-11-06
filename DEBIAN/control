@@ -4,7 +4,7 @@ Architecture: all
 Essential: yes
 Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
 Installed-Size: 131
-Depends: perl-base (>= 5.20.1-3)
+Depends: perl-base (>= 5.20.1-3~) | perl (>= 5.16.3)
 Conflicts: file-rc (<< 0.8.17~), openrc (<= 0.18.3-1)
 Breaks: systemd (<< 44-12), sysvinit-utils (<< 2.88dsf-59.3~)
 Replaces: sysv-rc (<< 2.88dsf-59.3~), sysvinit-utils (<< 2.88dsf-59.3)
